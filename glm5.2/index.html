@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>OPERATION: LAST STAND</title>
+    <style>
+      :root { color-scheme: dark; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        width: 100%; height: 100%; overflow: hidden;
+        background: #0a0c07;
+        font-family: 'Courier New', monospace;
+      }
+      #app {
+        width: 100vw; height: 100vh;
+        display: flex; align-items: center; justify-content: center;
+      }
+      canvas {
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+        display: block;
+        cursor: crosshair;
+        background: #1a1d14;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script type="module" crossorigin src="/glm5.2/assets/index-BV1WqQdp.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game"></canvas>
+    </div>
+  </body>
+</html>
