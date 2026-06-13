@@ -1,0 +1,6 @@
+{
+  "name": "outpost",
+  "private": true,
+  "type": "module",
+  "description": "OUTPOST - 2D wave-based military arena shooter for the browser"
+}
